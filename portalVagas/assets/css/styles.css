@@ -123,7 +123,7 @@ article > h2 {
 
 .vagas {
     width: 100%;
-    height: 1800px;
+    /*height: 940px;*/
     padding: 96px 0 96px 0;
 }
 
@@ -166,8 +166,43 @@ article > h2 {
     width: 1280px;
     height: 940px;
     margin: 0 auto;
-    background-color: #667000;
+    /*background-color: #667000;*/
+    padding: 0px 32px 0px 32px;
 }
+
+.vagas-filtros {
+    width: 768px;
+    height: 358px;
+    margin: 0 auto 64px auto;
+}
+
+.vagas-cards {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.vaga {
+    width: 100%;
+    /*height: 136px   ;*/
+    padding: 24px 24px 28px 24px;
+    border: 1px solid #EAECF0;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+.vaga > h2 {
+    font-size: 18px;
+}
+
+.vaga > p {
+    font-size: 16px;
+}
+
+.vagas-filtros > h5 {
+    font-size: 20px;
+}
+
 
 .talentos > img {
     width: 100%;
@@ -184,15 +219,27 @@ article > h2 {
     height: 500px;
 }
 
+.depoimentos-container {
+    width: 1280px;
+    padding: 0px 32px 0px 32px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.depoimento-conteudo {
+    background-color: #C3191933;
+    height: 404px;
+}
 
 /*formularios*/
 .formularios {
     width: 100%;
-    height: 440px;
+    height: 430px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #F9FAFB;
 }
 
 .form-title > h2 {
